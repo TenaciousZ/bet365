@@ -1,0 +1,9 @@
+1517887759588	geckodriver	INFO	geckodriver 0.19.1
+1517887759598	geckodriver	INFO	Listening on 127.0.0.1:61349
+1517887761472	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yaoqian\\AppData\\Local\\Temp\\rust_mozprofile.khlOxtqTXbrU"
+1517887762486	Marionette	INFO	Enabled via --marionette
+1517887764451	Marionette	INFO	Listening on port 61356
+1517887764614	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\yaoqian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://www.356884.com/betslip/javascript/min/3.0.79.0/betslip.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.356884.com/betslip/javascript/min/3.0.79.0/betslip.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
