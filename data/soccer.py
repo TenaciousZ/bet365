@@ -7,37 +7,39 @@ from threading import Thread
 import pymysql
 
 
-class ChromeUtil:
+class BrowserUtil:
     def __init__(self):
-        self.option = webdriver.ChromeOptions()
-        self.browser = webdriver.Chrome(chrome_options=self.option)
         self.html = ''
-        self.thread = Thread(target=None)
+        if False:
+            self.browser = webdriver.Firefox()
 
-    def init_browser_on_linux(self):
-        display = Display(visible=0, size=(800, 600))
-        display.start()
-        self.browser = webdriver.Chrome(chrome_options=self.option)
+    def init_google(self, linux=False):
+        if linux:
+            display = Display(visible=0, size=(1920, 1080))
+            display.start()
+            self.browser = webdriver.Chrome()
+        else:
+            self.browser = webdriver.Chrome()
+
+    def init_firefox(self, linux=False):
+        if linux:
+            display = Display(visible=0, size=(1920, 1080))
+            display.start()
+            self.browser = webdriver.Firefox()
+        else:
+            self.browser = webdriver.Firefox()
+
+    def init_phantom(self, path):
+        self.browser = webdriver.PhantomJS(executable_path=path)
 
     def set_url(self, url):
         self.browser.get(url=url)
         self.html = str(self.browser.find_element_by_tag_name('html').get_attribute('innerHTML'))
 
     def refresh_html(self):
+        # self.browser.refresh()
         self.html = str(self.browser.find_element_by_tag_name('html').get_attribute('innerHTML'))
         return self.html
-
-    def get_html_interval(self, url, interval):
-        self.set_url(url)
-        while True:
-            self.refresh_html()
-            time.sleep(interval)
-
-    def create_thread(self, url, interval):
-        if self.thread.is_alive():
-            self.thread.join(1000)
-        self.thread = Thread(target=self.get_html_interval, args=(url, interval))
-        self.thread.start()
 
 
 class MysqlDao:
@@ -93,11 +95,33 @@ class MysqlDao:
 class SaveSoccerData:
     def __init__(self):
         self.mysql_server = ''
-        self.keys1 = []
-        self.keys2 = []
-        self.items1 = {}
-        self.items2 = {}
+        self.key_to_id = {}
+        self.items = []
         pass
+
+    def save_to_mysql(self):
+        keys = []
+        for item in self.items:
+            key = item['key']
+            keys.append(key)
+            key_id_item = self.key_to_id[key]
+            if key_id_item is None:
+                pass
+            else:
+                value = item['value']
+                if value == key_id_item['value']:
+                    pass
+                else:
+                    pid = key_id_item['pid']
+                    # update
+                    pass
+        not_in_keys = []
+        for key in self.key_to_id:
+            if key not in keys:
+                # delete
+                not_in_keys.append(key)
+        for key in not_in_keys:
+            del self.key_to_id[key]
 
     def parse_soccer_data_from_html(self, html):
         b = BeautifulSoup(html, 'html.parser')
@@ -106,8 +130,7 @@ class SaveSoccerData:
         if competitions is None or len(competitions) == 0:
             return 0
 
-        self.items2 = {}
-        self.keys2 = []
+        self.items = []
         for c in competitions:
             competition_name = c.find('div', {
                 'class': 'ipo-CompetitionButton_NameLabel ipo-CompetitionButton_NameLabelHasMarketHeading '}).string
@@ -141,24 +164,24 @@ class SaveSoccerData:
                     "odd_b": odd_b,
                     "odd_x": odd_x
                 }
-                self.items2['key'] = item
-                self.keys2.append(key)
+                self.items.append(item)
 
     def get_soccer_data(self):
-        chrome = ChromeUtil()
-        # chromeUtil.init_browser()
-        chrome.set_url('https://www.356884.com/zh-CHS/?&cb=10326512504#/IP/')
+        browser = BrowserUtil()
+        browser.init_firefox(True)
+
+        browser.set_url('https://www.356884.com/zh-CHS/?&cb=10326512504#/IP/')
         time.sleep(2)
-        chrome.browser.find_element_by_id("dv1").click()
+        browser.browser.find_element_by_id("dv1").click()
         time.sleep(2)
-        chrome.set_url('https://www.356884.com/#/IP/')
+        browser.set_url('https://www.356884.com/#/IP/')
         time.sleep(2)
         while True:
-            chrome.refresh_html()
-            self.parse_soccer_data_from_html(chrome.html)
+            browser.refresh_html()
+            self.parse_soccer_data_from_html(browser.html)
             time.sleep(10)
 
 
-
 if __name__ == '__main__':
-    get_soccer_data()
+    saveSoccerData = SaveSoccerData()
+    saveSoccerData.get_soccer_data()

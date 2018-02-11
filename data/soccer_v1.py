@@ -46,21 +46,9 @@ class BrowserUtil:
         self.html = str(self.browser.find_element_by_tag_name('html').get_attribute('innerHTML'))
         return self.html
 
-    def get_html_interval(self, url, interval):
-        self.set_url(url)
-        while True:
-            self.refresh_html()
-            time.sleep(interval)
-
-    def create_thread(self, url, interval):
-        if self.thread.is_alive():
-            self.thread.join(1000)
-        self.thread = Thread(target=self.get_html_interval, args=(url, interval))
-        self.thread.start()
-
 
 class SaveSoccerData:
-    def __init__(self):
+    def __init__(self, linux=False):
         self.mysql_server = ''
         # self.keys1 = []
         # self.keys2 = []
@@ -68,62 +56,66 @@ class SaveSoccerData:
         # self.items2 = {}
         self.result = []
         self.chrome = BrowserUtil()
-        self.chrome.init_phantom("H:\\迅雷下载\\phantomjs-2.1.1-windows\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe")
+        self.chrome.init_firefox(linux)
         pass
 
     def parse_soccer_data_from_html(self, html):
-        b = BeautifulSoup(html, 'html.parser')
-        competitions = b.findAll('div', {'class': 'ipo-Competition ipo-Competition-open '})
-        print(len(competitions))
-        if competitions is None or len(competitions) == 0:
-            return 0
+        try:
+            b = BeautifulSoup(html, 'html.parser')
+            competitions = b.findAll('div', {'class': 'ipo-Competition ipo-Competition-open '})
+            print(len(competitions))
+            if competitions is None or len(competitions) == 0:
+                return 0
 
-        # self.items2 = {}
-        # self.keys2 = []
-        self.result = []
-        for c in competitions:
-            competition_name = c.find('div', {
-                'class': 'ipo-CompetitionButton_NameLabel ipo-CompetitionButton_NameLabelHasMarketHeading '}).string
-            print(competition_name)
-            for teams in c.findAll('div', {'class': 'ipo-Fixture_TableRow '}):
-                team_ab = teams.findAll('span', {'class': 'ipo-TeamStack_TeamWrapper'})
-                odds = teams.findAll('span', {'class': 'gl-ParticipantCentered_Odds'})
-                team_a = team_ab[0].string
-                team_b = team_ab[1].string
-                score_a = teams.find('div',
-                                     {'class': 'ipo-TeamPoints_TeamScore ipo-TeamPoints_TeamScore-teamone '}).string
-                score_b = teams.find('div',
-                                     {
-                                         'class': 'ipo-TeamPoints_TeamScore ipo-TeamPoints_TeamScore-teamtwo '}).string.string
-                odd_a = odds[0].string
-                odd_b = odds[1].string
-                odd_x = odds[2].string
-                c_time = teams.find('div', {'class': 'ipo-InPlayTimer '}).string
-                item = {
-                    "competition": competition_name,
-                    "team": [team_a, team_b],
-                    "time": c_time,
-                    "point": [score_a, score_b],
-                    "odd": [odd_a, odd_x, odd_b]
-                }
-                self.result.append(item)
-                # key = competition_name + "_" + team_a + "_" + team_b
-                # value = score_a + "-" + score_b + "," + odd_a + "-" + odd_b + "-" + odd_x
-                # item = {
-                #     "key": key,
-                #     "value": value,
-                #     "time": c_time,
-                #     "competition_name": competition_name,
-                #     "team_name_a": team_a,
-                #     "team_name_b": team_b,
-                #     "score_a": score_a,
-                #     "score_b": score_b,
-                #     "odd_a": odd_a,
-                #     "odd_b": odd_b,
-                #     "odd_x": odd_x
-                # }
-                # self.items2['key'] = item
-                # self.keys2.append(key)
+            # self.items2 = {}
+            # self.keys2 = []
+            self.result = []
+            for c in competitions:
+                competition_name = c.find('div', {
+                    'class': 'ipo-CompetitionButton_NameLabel ipo-CompetitionButton_NameLabelHasMarketHeading '}).string
+                # print(competition_name)
+                for teams in c.findAll('div', {'class': 'ipo-Fixture_TableRow '}):
+                    team_ab = teams.findAll('span', {'class': 'ipo-TeamStack_TeamWrapper'})
+                    odds = teams.findAll('span', {'class': 'gl-ParticipantCentered_Odds'})
+                    team_a = team_ab[0].string
+                    team_b = team_ab[1].string
+                    score_a = teams.find('div',
+                                         {'class': 'ipo-TeamPoints_TeamScore ipo-TeamPoints_TeamScore-teamone '}).string
+                    score_b = teams.find('div',
+                                         {
+                                             'class': 'ipo-TeamPoints_TeamScore ipo-TeamPoints_TeamScore-teamtwo '}).string.string
+                    odd_a = odds[0].string
+                    odd_b = odds[1].string
+                    odd_x = odds[2].string
+                    c_time = teams.find('div', {'class': 'ipo-InPlayTimer '}).string
+                    item = {
+                        "competition": competition_name,
+                        "team": [team_a, team_b],
+                        "time": c_time,
+                        "point": [score_a, score_b],
+                        "odd": [odd_a, odd_x, odd_b]
+                    }
+                    self.result.append(item)
+                    # key = competition_name + "_" + team_a + "_" + team_b
+                    # value = score_a + "-" + score_b + "," + odd_a + "-" + odd_b + "-" + odd_x
+                    # item = {
+                    #     "key": key,
+                    #     "value": value,
+                    #     "time": c_time,
+                    #     "competition_name": competition_name,
+                    #     "team_name_a": team_a,
+                    #     "team_name_b": team_b,
+                    #     "score_a": score_a,
+                    #     "score_b": score_b,
+                    #     "odd_a": odd_a,
+                    #     "odd_b": odd_b,
+                    #     "odd_x": odd_x
+                    # }
+                    # self.items2['key'] = item
+                    # self.keys2.append(key)
+        except Exception as e:
+            # print(e)
+            return 0
 
     def get_soccer_data(self):
         # chrome = ChromeUtil()
@@ -135,6 +127,7 @@ class SaveSoccerData:
         self.chrome.set_url('https://www.356884.com/#/IP/')
         time.sleep(2)
         self.chrome.refresh_html()
+        # self.chrome.keep_alive()
         # while True:
         #     chrome.refresh_html()
         #     self.parse_soccer_data_from_html(chrome.html)
@@ -142,7 +135,7 @@ class SaveSoccerData:
 
     def get_last_data(self):
         self.chrome.refresh_html()
-        print(self.chrome.html)
+        # print(self.chrome.html)
         self.parse_soccer_data_from_html(self.chrome.html)
         return self.result
 
@@ -154,7 +147,7 @@ def hello():
 
 if __name__ == '__main__':
     global saveSoccerData
-    saveSoccerData = SaveSoccerData()
+    saveSoccerData = SaveSoccerData(False)
     saveSoccerData.get_soccer_data()
     saveSoccerData.get_last_data()
     print("init done!")
