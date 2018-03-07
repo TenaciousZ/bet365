@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/data/soccer_v1.py" line="125" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/data/soccer_v1.py" line="63" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9019ccda-863b-4b5c-a2b4-e516c5b176b9" name="Default" comment="" />
+    <list default="true" id="9019ccda-863b-4b5c-a2b4-e516c5b176b9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/util/websocket_demo.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/data/geckodriver.log" afterPath="$PROJECT_DIR$/data/geckodriver.log" />
+      <change beforePath="$PROJECT_DIR$/data/ghostdriver.log" afterPath="$PROJECT_DIR$/data/ghostdriver.log" />
+      <change beforePath="$PROJECT_DIR$/data/soccer.py" afterPath="$PROJECT_DIR$/data/soccer.py" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,48 +20,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/bet365$soccer.coverage" NAME="soccer Coverage Results" MODIFIED="1517792958438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/bet365$websocket_demo.coverage" NAME="websocket_demo Coverage Results" MODIFIED="1519867642167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/bet365$websocket.coverage" NAME="websocket Coverage Results" MODIFIED="1519785680224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/bet365$soccer.coverage" NAME="soccer Coverage Results" MODIFIED="1520388497413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/bet365$open_google.coverage" NAME="open_google Coverage Results" MODIFIED="1517730407528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/bet365$soccer_v1.coverage" NAME="soccer_v1 Coverage Results" MODIFIED="1517897309467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/bet365$soccer_v1.coverage" NAME="soccer_v1 Coverage Results" MODIFIED="1518228396336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="soccer.py" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="soccer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/soccer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="146" column="30" lean-forward="false" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+            <state relative-caret-position="249">
+              <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
               <folding>
-                <element signature="e#24#54#0" expanded="true" />
-                <element signature="e#202#1284#0" expanded="false" />
-                <element signature="e#1307#2779#0" expanded="false" />
-                <element signature="e#3028#5179#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="soccer_v1.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="94" column="43" lean-forward="true" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
-              <folding>
-                <element signature="e#24#54#0" expanded="true" />
-                <element signature="e#459#662#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="open_google.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/open_google.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-              <folding>
-                <element signature="e#24#35#0" expanded="true" />
-                <element signature="e#199#1281#0" expanded="false" />
+                <element signature="e#247#326#0" expanded="false" />
+                <element signature="e#376#579#0" expanded="false" />
+                <element signature="e#398#519#0" expanded="false" />
+                <element signature="e#630#835#0" expanded="false" />
+                <element signature="e#652#774#0" expanded="false" />
+                <element signature="e#879#935#0" expanded="false" />
+                <element signature="e#973#1096#0" expanded="false" />
+                <element signature="e#1304#2776#0" expanded="false" />
+                <element signature="e#1428#1877#0" expanded="false" />
+                <element signature="e#2277#2472#0" expanded="false" />
+                <element signature="e#2294#2394#0" expanded="false" />
+                <element signature="e#2439#2472#0" expanded="false" />
+                <element signature="e#2535#2730#0" expanded="false" />
+                <element signature="e#2552#2652#0" expanded="false" />
+                <element signature="e#2697#2730#0" expanded="false" />
+                <element signature="e#2761#2776#0" expanded="false" />
+                <element signature="e#3605#3700#0" expanded="false" />
+                <element signature="e#3890#4110#0" expanded="false" />
+                <element signature="e#4012#4110#0" expanded="false" />
+                <element signature="e#6063#7151#0" expanded="false" />
+                <element signature="e#6494#7009#0" expanded="false" />
+                <element signature="e#8217#11414#0" expanded="false" />
+                <element signature="e#9368#9478#0" expanded="false" />
+                <element signature="e#10184#10297#0" expanded="false" />
+                <element signature="e#10903#11357#0" expanded="false" />
+                <element signature="e#12207#12277#0" expanded="false" />
+                <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+                <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+                <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+                <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+                <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+                <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+                <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+                <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
               </folding>
             </state>
           </provider>
@@ -73,7 +85,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>1.14</find>
+      <find>print</find>
+      <find>competion</find>
+      <find>NA</find>
+      <find>NA=</find>
+      <find>科</find>
+      <find>end</find>
     </findStrings>
+    <replaceStrings>
+      <replace>league</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,8 +109,11 @@
       <list>
         <option value="$PROJECT_DIR$/util/bs4_utils.py" />
         <option value="$PROJECT_DIR$/util/open_google.py" />
-        <option value="$PROJECT_DIR$/data/soccer.py" />
+        <option value="$PROJECT_DIR$/data/soccer_mobile.py" />
         <option value="$PROJECT_DIR$/data/soccer_v1.py" />
+        <option value="$PROJECT_DIR$/util/websocket.py" />
+        <option value="$PROJECT_DIR$/util/websocket_demo.py" />
+        <option value="$PROJECT_DIR$/data/soccer.py" />
       </list>
     </option>
   </component>
@@ -107,7 +131,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
@@ -129,7 +153,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,16 +175,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="D:/code_wokpsace/webui" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="GO_FMT" value="false" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -179,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.soccer_v1">
+  <component name="RunManager" selected="Python.soccer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -278,6 +306,44 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="websocket" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bet365" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\github\bet365\util\websocket_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="websocket_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bet365" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/websocket_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -318,16 +384,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.open_google" />
       <item index="1" class="java.lang.String" itemvalue="Python.soccer" />
       <item index="2" class="java.lang.String" itemvalue="Python.soccer_v1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.websocket" />
+      <item index="4" class="java.lang.String" itemvalue="Python.websocket_demo" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.soccer_v1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.soccer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.open_google" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.soccer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.websocket_demo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.websocket" />
+        <item index="3" class="java.lang.String" itemvalue="Python.soccer_v1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.open_google" />
       </list>
     </recent_temporary>
   </component>
@@ -345,15 +415,42 @@
       <option name="presentableId" value="Default" />
       <updated>1517721282183</updated>
       <workItem from="1517721285379" duration="9903000" />
-      <workItem from="1517748954018" duration="14128000" />
+      <workItem from="1517748954018" duration="16529000" />
+      <workItem from="1517905450417" duration="2219000" />
+      <workItem from="1517970472044" duration="1370000" />
+      <workItem from="1518097923138" duration="467000" />
+      <workItem from="1518164983293" duration="535000" />
+      <workItem from="1518165904341" duration="1072000" />
+      <workItem from="1518228124446" duration="1594000" />
+      <workItem from="1518360037121" duration="22620000" />
+      <workItem from="1518511648151" duration="738000" />
+      <workItem from="1518571110321" duration="3185000" />
+      <workItem from="1519782672784" duration="20254000" />
+      <workItem from="1519865751543" duration="2640000" />
+      <workItem from="1520333823620" duration="7890000" />
     </task>
+    <task id="LOCAL-00001" summary="commit old mobile">
+      <created>1517902572101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517902572101</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit old mobile">
+      <created>1518363620679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518363620679</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24031000" />
+    <option name="totallyTimeSpent" value="91016000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -362,13 +459,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="NativeScript" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53787047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7233809" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21620172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14377682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -376,8 +473,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -392,50 +489,190 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit old mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit old mobile" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/websocket/_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/soccer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#202#1284#0" expanded="false" />
-            <element signature="e#1307#2779#0" expanded="false" />
-            <element signature="e#3028#5179#0" expanded="false" />
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/bs4_utils.py">
+    <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/open_google.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#24#35#0" expanded="true" />
-            <element signature="e#199#1281#0" expanded="false" />
+            <element signature="e#24#54#0" expanded="false" />
+            <element signature="e#260#1364#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/bs4_utils.py">
+    <entry file="file://$PROJECT_DIR$/data/soccer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="false" />
+            <element signature="e#260#1364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/websocket_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="false" />
+            <element signature="e#260#1364#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -444,10 +681,119 @@
         <state relative-caret-position="598">
           <caret line="146" column="30" lean-forward="false" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
           <folding>
-            <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#202#1284#0" expanded="false" />
-            <element signature="e#1307#2779#0" expanded="false" />
-            <element signature="e#3028#5179#0" expanded="false" />
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369">
+          <caret line="109" column="14" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/open_google.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3657">
+          <caret line="165" column="22" lean-forward="false" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#54#0" expanded="false" />
+            <element signature="e#260#1364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="false" />
+            <element signature="e#260#1364#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -456,20 +802,534 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="146" column="30" lean-forward="false" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
           <folding>
-            <element signature="e#24#35#0" expanded="true" />
-            <element signature="e#199#1281#0" expanded="false" />
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369">
+          <caret line="109" column="14" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/open_google.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="94" column="43" lean-forward="true" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
+        <state relative-caret-position="1679">
+          <caret line="79" column="37" lean-forward="false" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
           <folding>
-            <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#459#662#0" expanded="false" />
+            <element signature="e#24#54#0" expanded="false" />
+            <element signature="e#260#1364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="146" column="30" lean-forward="false" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+          <folding>
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369">
+          <caret line="109" column="14" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/open_google.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3174">
+          <caret line="144" column="15" lean-forward="false" selection-start-line="144" selection-start-column="10" selection-end-line="144" selection-end-column="15" />
+          <folding>
+            <element signature="e#24#54#0" expanded="false" />
+            <element signature="e#260#1364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="146" column="30" lean-forward="false" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+          <folding>
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/open_google.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369">
+          <caret line="109" column="14" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3335">
+          <caret line="151" column="53" lean-forward="true" selection-start-line="151" selection-start-column="53" selection-end-line="151" selection-end-column="53" />
+          <folding>
+            <element signature="e#24#54#0" expanded="false" />
+            <element signature="e#260#1364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="146" column="30" lean-forward="false" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+          <folding>
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369">
+          <caret line="109" column="14" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/open_google.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1978">
+          <caret line="92" column="43" lean-forward="true" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
+          <folding>
+            <element signature="e#24#54#0" expanded="false" />
+            <element signature="e#260#1364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="146" column="30" lean-forward="false" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+          <folding>
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369">
+          <caret line="109" column="14" lean-forward="true" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/open_google.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3404">
+          <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#54#0" expanded="false" />
+            <element signature="e#260#1364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/bs4_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/open_google.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/bs4_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/open_google.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="756" column="8" lean-forward="false" selection-start-line="756" selection-start-column="8" selection-end-line="756" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369">
+          <caret line="109" column="14" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="460" column="0" lean-forward="false" selection-start-line="460" selection-start-column="0" selection-end-line="460" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2017.3/system/python_stubs/629549011/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="3621" column="8" lean-forward="false" selection-start-line="3621" selection-start-column="8" selection-end-line="3621" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/websocket/_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6482">
+          <caret line="483" column="59" lean-forward="true" selection-start-line="483" selection-start-column="59" selection-end-line="483" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/websocket/_abnf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="103" column="21" lean-forward="false" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/websocket/_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="54" column="31" lean-forward="false" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="false" />
+            <element signature="e#260#1364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/websocket_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="115" column="20" lean-forward="false" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/bs4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9490">
+          <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soccer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+          <folding>
+            <element signature="e#247#326#0" expanded="false" />
+            <element signature="e#376#579#0" expanded="false" />
+            <element signature="e#398#519#0" expanded="false" />
+            <element signature="e#630#835#0" expanded="false" />
+            <element signature="e#652#774#0" expanded="false" />
+            <element signature="e#879#935#0" expanded="false" />
+            <element signature="e#973#1096#0" expanded="false" />
+            <element signature="e#1304#2776#0" expanded="false" />
+            <element signature="e#1428#1877#0" expanded="false" />
+            <element signature="e#2277#2472#0" expanded="false" />
+            <element signature="e#2294#2394#0" expanded="false" />
+            <element signature="e#2439#2472#0" expanded="false" />
+            <element signature="e#2535#2730#0" expanded="false" />
+            <element signature="e#2552#2652#0" expanded="false" />
+            <element signature="e#2697#2730#0" expanded="false" />
+            <element signature="e#2761#2776#0" expanded="false" />
+            <element signature="e#3605#3700#0" expanded="false" />
+            <element signature="e#3890#4110#0" expanded="false" />
+            <element signature="e#4012#4110#0" expanded="false" />
+            <element signature="e#6063#7151#0" expanded="false" />
+            <element signature="e#6494#7009#0" expanded="false" />
+            <element signature="e#8217#11414#0" expanded="false" />
+            <element signature="e#9368#9478#0" expanded="false" />
+            <element signature="e#10184#10297#0" expanded="false" />
+            <element signature="e#10903#11357#0" expanded="false" />
+            <element signature="e#12207#12277#0" expanded="false" />
+            <marker date="1520388444947" expanded="true" signature="4592:4641" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="4730:5048" ph="INSERT INTO `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5508:5514" ph="insert into mysql... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5858" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="5775:5880" ph="UPDATE `tb_soccer`... " />
+            <marker date="1520388444947" expanded="true" signature="7313:7367" ph="SELECT * FRO... tb_soccer" />
+            <marker date="1520388444947" expanded="true" signature="7421:7518" ph="SELECT * FRO... tb_soccer_detail" />
+            <marker date="1520388444947" expanded="true" signature="7912:8022" ph="UPDATE `tb_soccer`... " />
           </folding>
         </state>
       </provider>
@@ -477,9 +1337,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6.2 (C:\Users\yaoqian\AppData\Local\Programs\Python\Python36\python.exe) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6.2 (C:\Users\yaoqian\AppData\Local\Programs\Python\Python36\python.exe)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bet365</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
